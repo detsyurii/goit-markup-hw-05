@@ -575,6 +575,8 @@ transition: color 250ms var(--time-function);
     justify-content: center;
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function);
 }
 
 
